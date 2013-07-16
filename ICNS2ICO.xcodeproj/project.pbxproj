@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0587F95D178D5AF2000B4A79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0587F95B178D5AF2000B4A79 /* InfoPlist.strings */; };
+		0587F961178D5AF2000B4A79 /* ICOConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0587F960178D5AF2000B4A79 /* ICOConverter.m */; };
+		0587F975178D5B81000B4A79 /* ICOConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F956178D5AF2000B4A79 /* ICOConverter.framework */; };
+		0587F977178D5B8A000B4A79 /* ICOConverter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0587F956178D5AF2000B4A79 /* ICOConverter.framework */; };
+		0587F97C178D5E4F000B4A79 /* ICOConverter+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0587F97A178D5E4F000B4A79 /* ICOConverter+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0587F97D178D5E4F000B4A79 /* ICOConverter+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0587F97B178D5E4F000B4A79 /* ICOConverter+Private.mm */; };
+		0587F980178D630D000B4A79 /* ICOConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0587F95F178D5AF2000B4A79 /* ICOConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0587FF7C178D9684000B4A79 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F93C178D5963000B4A79 /* libc++.dylib */; };
+		0587FF7D178D9684000B4A79 /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F93D178D5963000B4A79 /* libc++abi.dylib */; };
+		0587FF7E178D9684000B4A79 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F93E178D5963000B4A79 /* libstdc++.dylib */; };
+		0587FF7F178D9684000B4A79 /* libSystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F93A178D595B000B4A79 /* libSystem.dylib */; };
+		0587FF80178D9684000B4A79 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F938178D5955000B4A79 /* libbz2.dylib */; };
+		0587FF81178D9684000B4A79 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F936178D5951000B4A79 /* libxml2.dylib */; };
+		0587FF82178D9684000B4A79 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F934178D594D000B4A79 /* libz.dylib */; };
+		0587FF83178D9684000B4A79 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F97E178D5FB4000B4A79 /* OpenCL.framework */; };
+		0587FF84178D9684000B4A79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DE1CF8178C76AB00494AB1 /* Cocoa.framework */; };
+		05C987AE1794A9FD0043C47B /* libMagick++-6.Q16.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C987A81794A9C10043C47B /* libMagick++-6.Q16.1.dylib */; };
+		05C987AF1794A9FF0043C47B /* libMagickCore-6.Q16.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C987A91794A9C10043C47B /* libMagickCore-6.Q16.1.dylib */; };
+		05C987B01794AA010043C47B /* libMagickWand-6.Q16.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C987AA1794A9C10043C47B /* libMagickWand-6.Q16.1.dylib */; };
+		05DE1CF9178C76AB00494AB1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DE1CF8178C76AB00494AB1 /* Cocoa.framework */; };
+		05DE1D03178C76AB00494AB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05DE1D01178C76AB00494AB1 /* InfoPlist.strings */; };
+		05DE1D05178C76AB00494AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE1D04178C76AB00494AB1 /* main.m */; };
+		05DE1D0C178C76AB00494AB1 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE1D0B178C76AB00494AB1 /* ApplicationDelegate.m */; };
+		05DE1D0F178C76AB00494AB1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DE1D0D178C76AB00494AB1 /* MainMenu.xib */; };
+		05DE1D17178C7D8700494AB1 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE1D16178C7D8700494AB1 /* MainWindowController.m */; };
+		05DE1D22178C851200494AB1 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE1D21178C851200494AB1 /* BackgroundView.m */; };
+		05DE1D25178C87BF00494AB1 /* MainWindowController+NSTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE1D24178C87BF00494AB1 /* MainWindowController+NSTableViewDataSource.m */; };
+		05DE1D2B178C8E7300494AB1 /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE1D2A178C8E7300494AB1 /* TextFieldCell.m */; };
+		05DE1D2D178C915200494AB1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05DE1D2C178C915200494AB1 /* Localizable.strings */; };
+		05DE1D59178CA9CC00494AB1 /* MainWindowController+NSWindowDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE1D58178CA9CC00494AB1 /* MainWindowController+NSWindowDelegate.m */; };
+		05DE1D5B178CB01B00494AB1 /* ICNS2ICO.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 05DE1D5A178CB01B00494AB1 /* ICNS2ICO.iconset */; };
+		05DE1D5E178CB06300494AB1 /* AboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE1D5D178CB06300494AB1 /* AboutWindowController.m */; };
+		05DE1D65178CB57400494AB1 /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DE1D67178CB57400494AB1 /* AboutWindow.xib */; };
+		05DE1D68178CB57900494AB1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DE1D6A178CB57900494AB1 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0587F978178D5D3E000B4A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DE1CED178C76AB00494AB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0587F955178D5AF2000B4A79;
+			remoteInfo = ICOConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0587F976178D5B86000B4A79 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0587F977178D5B8A000B4A79 /* ICOConverter.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0587F934178D594D000B4A79 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0587F936178D5951000B4A79 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		0587F938178D5955000B4A79 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		0587F93A178D595B000B4A79 /* libSystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.dylib; path = usr/lib/libSystem.dylib; sourceTree = SDKROOT; };
+		0587F93C178D5963000B4A79 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0587F93D178D5963000B4A79 /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
+		0587F93E178D5963000B4A79 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		0587F956178D5AF2000B4A79 /* ICOConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ICOConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0587F95A178D5AF2000B4A79 /* ICOConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ICOConverter-Info.plist"; sourceTree = "<group>"; };
+		0587F95C178D5AF2000B4A79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0587F95E178D5AF2000B4A79 /* ICOConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICOConverter-Prefix.pch"; sourceTree = "<group>"; };
+		0587F95F178D5AF2000B4A79 /* ICOConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICOConverter.h; sourceTree = "<group>"; };
+		0587F960178D5AF2000B4A79 /* ICOConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICOConverter.m; sourceTree = "<group>"; };
+		0587F97A178D5E4F000B4A79 /* ICOConverter+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ICOConverter+Private.h"; sourceTree = "<group>"; };
+		0587F97B178D5E4F000B4A79 /* ICOConverter+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "ICOConverter+Private.mm"; sourceTree = "<group>"; };
+		0587F97E178D5FB4000B4A79 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		05C987A81794A9C10043C47B /* libMagick++-6.Q16.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagick++-6.Q16.1.dylib"; path = "/opt/local/lib/libMagick++-6.Q16.1.dylib"; sourceTree = "<group>"; };
+		05C987A91794A9C10043C47B /* libMagickCore-6.Q16.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagickCore-6.Q16.1.dylib"; path = "/opt/local/lib/libMagickCore-6.Q16.1.dylib"; sourceTree = "<group>"; };
+		05C987AA1794A9C10043C47B /* libMagickWand-6.Q16.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagickWand-6.Q16.1.dylib"; path = "/opt/local/lib/libMagickWand-6.Q16.1.dylib"; sourceTree = "<group>"; };
+		05DE1CF5178C76AB00494AB1 /* ICNS2ICO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICNS2ICO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DE1CF8178C76AB00494AB1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		05DE1CFB178C76AB00494AB1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		05DE1CFC178C76AB00494AB1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		05DE1CFD178C76AB00494AB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05DE1D00178C76AB00494AB1 /* ICNS2ICO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ICNS2ICO-Info.plist"; sourceTree = "<group>"; };
+		05DE1D02178C76AB00494AB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05DE1D04178C76AB00494AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05DE1D06178C76AB00494AB1 /* ICNS2ICO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICNS2ICO-Prefix.pch"; sourceTree = "<group>"; };
+		05DE1D0A178C76AB00494AB1 /* ApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		05DE1D0B178C76AB00494AB1 /* ApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		05DE1D0E178C76AB00494AB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05DE1D15178C7D8700494AB1 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		05DE1D16178C7D8700494AB1 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		05DE1D20178C851200494AB1 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		05DE1D21178C851200494AB1 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		05DE1D23178C87BF00494AB1 /* MainWindowController+NSTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainWindowController+NSTableViewDataSource.h"; sourceTree = "<group>"; };
+		05DE1D24178C87BF00494AB1 /* MainWindowController+NSTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainWindowController+NSTableViewDataSource.m"; sourceTree = "<group>"; };
+		05DE1D26178C8AB900494AB1 /* warnings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = warnings.h; sourceTree = "<group>"; };
+		05DE1D29178C8E7300494AB1 /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
+		05DE1D2A178C8E7300494AB1 /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
+		05DE1D2C178C915200494AB1 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		05DE1D57178CA9CC00494AB1 /* MainWindowController+NSWindowDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainWindowController+NSWindowDelegate.h"; sourceTree = "<group>"; };
+		05DE1D58178CA9CC00494AB1 /* MainWindowController+NSWindowDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainWindowController+NSWindowDelegate.m"; sourceTree = "<group>"; };
+		05DE1D5A178CB01B00494AB1 /* ICNS2ICO.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = ICNS2ICO.iconset; sourceTree = SOURCE_ROOT; };
+		05DE1D5C178CB06300494AB1 /* AboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutWindowController.h; sourceTree = "<group>"; };
+		05DE1D5D178CB06300494AB1 /* AboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutWindowController.m; sourceTree = "<group>"; };
+		05DE1D66178CB57400494AB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AboutWindow.xib; sourceTree = "<group>"; };
+		05DE1D69178CB57900494AB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0587F952178D5AF2000B4A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0587FF7C178D9684000B4A79 /* libc++.dylib in Frameworks */,
+				0587FF7D178D9684000B4A79 /* libc++abi.dylib in Frameworks */,
+				0587FF7E178D9684000B4A79 /* libstdc++.dylib in Frameworks */,
+				0587FF7F178D9684000B4A79 /* libSystem.dylib in Frameworks */,
+				0587FF80178D9684000B4A79 /* libbz2.dylib in Frameworks */,
+				0587FF81178D9684000B4A79 /* libxml2.dylib in Frameworks */,
+				0587FF82178D9684000B4A79 /* libz.dylib in Frameworks */,
+				05C987AE1794A9FD0043C47B /* libMagick++-6.Q16.1.dylib in Frameworks */,
+				05C987AF1794A9FF0043C47B /* libMagickCore-6.Q16.1.dylib in Frameworks */,
+				05C987B01794AA010043C47B /* libMagickWand-6.Q16.1.dylib in Frameworks */,
+				0587FF83178D9684000B4A79 /* OpenCL.framework in Frameworks */,
+				0587FF84178D9684000B4A79 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DE1CF2178C76AB00494AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DE1CF9178C76AB00494AB1 /* Cocoa.framework in Frameworks */,
+				0587F975178D5B81000B4A79 /* ICOConverter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0587F958178D5AF2000B4A79 /* ICOConverter */ = {
+			isa = PBXGroup;
+			children = (
+				0587F95F178D5AF2000B4A79 /* ICOConverter.h */,
+				0587F960178D5AF2000B4A79 /* ICOConverter.m */,
+				0587F97A178D5E4F000B4A79 /* ICOConverter+Private.h */,
+				0587F97B178D5E4F000B4A79 /* ICOConverter+Private.mm */,
+				0587F959178D5AF2000B4A79 /* Supporting Files */,
+			);
+			path = ICOConverter;
+			sourceTree = "<group>";
+		};
+		0587F959178D5AF2000B4A79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0587F95A178D5AF2000B4A79 /* ICOConverter-Info.plist */,
+				0587F95B178D5AF2000B4A79 /* InfoPlist.strings */,
+				0587F95E178D5AF2000B4A79 /* ICOConverter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05DE1CEC178C76AB00494AB1 = {
+			isa = PBXGroup;
+			children = (
+				05DE1CFE178C76AB00494AB1 /* ICNS2ICO */,
+				0587F958178D5AF2000B4A79 /* ICOConverter */,
+				05DE1CF7178C76AB00494AB1 /* Frameworks */,
+				05DE1CF6178C76AB00494AB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05DE1CF6178C76AB00494AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DE1CF5178C76AB00494AB1 /* ICNS2ICO.app */,
+				0587F956178D5AF2000B4A79 /* ICOConverter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05DE1CF7178C76AB00494AB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05C987A81794A9C10043C47B /* libMagick++-6.Q16.1.dylib */,
+				05C987A91794A9C10043C47B /* libMagickCore-6.Q16.1.dylib */,
+				05C987AA1794A9C10043C47B /* libMagickWand-6.Q16.1.dylib */,
+				0587F93C178D5963000B4A79 /* libc++.dylib */,
+				0587F93D178D5963000B4A79 /* libc++abi.dylib */,
+				0587F93E178D5963000B4A79 /* libstdc++.dylib */,
+				0587F93A178D595B000B4A79 /* libSystem.dylib */,
+				0587F938178D5955000B4A79 /* libbz2.dylib */,
+				0587F936178D5951000B4A79 /* libxml2.dylib */,
+				0587F934178D594D000B4A79 /* libz.dylib */,
+				0587F97E178D5FB4000B4A79 /* OpenCL.framework */,
+				05DE1CF8178C76AB00494AB1 /* Cocoa.framework */,
+				05DE1CFA178C76AB00494AB1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05DE1CFA178C76AB00494AB1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05DE1CFB178C76AB00494AB1 /* AppKit.framework */,
+				05DE1CFC178C76AB00494AB1 /* CoreData.framework */,
+				05DE1CFD178C76AB00494AB1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		05DE1CFE178C76AB00494AB1 /* ICNS2ICO */ = {
+			isa = PBXGroup;
+			children = (
+				05DE1D0A178C76AB00494AB1 /* ApplicationDelegate.h */,
+				05DE1D0B178C76AB00494AB1 /* ApplicationDelegate.m */,
+				05DE1D15178C7D8700494AB1 /* MainWindowController.h */,
+				05DE1D16178C7D8700494AB1 /* MainWindowController.m */,
+				05DE1D57178CA9CC00494AB1 /* MainWindowController+NSWindowDelegate.h */,
+				05DE1D58178CA9CC00494AB1 /* MainWindowController+NSWindowDelegate.m */,
+				05DE1D23178C87BF00494AB1 /* MainWindowController+NSTableViewDataSource.h */,
+				05DE1D24178C87BF00494AB1 /* MainWindowController+NSTableViewDataSource.m */,
+				05DE1D5C178CB06300494AB1 /* AboutWindowController.h */,
+				05DE1D5D178CB06300494AB1 /* AboutWindowController.m */,
+				05DE1D20178C851200494AB1 /* BackgroundView.h */,
+				05DE1D21178C851200494AB1 /* BackgroundView.m */,
+				05DE1D29178C8E7300494AB1 /* TextFieldCell.h */,
+				05DE1D2A178C8E7300494AB1 /* TextFieldCell.m */,
+				05DE1D0D178C76AB00494AB1 /* MainMenu.xib */,
+				05DE1D6A178CB57900494AB1 /* MainWindow.xib */,
+				05DE1D67178CB57400494AB1 /* AboutWindow.xib */,
+				05DE1CFF178C76AB00494AB1 /* Supporting Files */,
+			);
+			path = ICNS2ICO;
+			sourceTree = "<group>";
+		};
+		05DE1CFF178C76AB00494AB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05DE1D5A178CB01B00494AB1 /* ICNS2ICO.iconset */,
+				05DE1D00178C76AB00494AB1 /* ICNS2ICO-Info.plist */,
+				05DE1D01178C76AB00494AB1 /* InfoPlist.strings */,
+				05DE1D04178C76AB00494AB1 /* main.m */,
+				05DE1D06178C76AB00494AB1 /* ICNS2ICO-Prefix.pch */,
+				05DE1D26178C8AB900494AB1 /* warnings.h */,
+				05DE1D2C178C915200494AB1 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0587F953178D5AF2000B4A79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0587F97C178D5E4F000B4A79 /* ICOConverter+Private.h in Headers */,
+				0587F980178D630D000B4A79 /* ICOConverter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0587F955178D5AF2000B4A79 /* ICOConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0587F962178D5AF2000B4A79 /* Build configuration list for PBXNativeTarget "ICOConverter" */;
+			buildPhases = (
+				0587F951178D5AF2000B4A79 /* Sources */,
+				0587F952178D5AF2000B4A79 /* Frameworks */,
+				0587F953178D5AF2000B4A79 /* Headers */,
+				0587F954178D5AF2000B4A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICOConverter;
+			productName = ICOConverter;
+			productReference = 0587F956178D5AF2000B4A79 /* ICOConverter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		05DE1CF4178C76AB00494AB1 /* ICNS2ICO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DE1D12178C76AB00494AB1 /* Build configuration list for PBXNativeTarget "ICNS2ICO" */;
+			buildPhases = (
+				05DE1CF1178C76AB00494AB1 /* Sources */,
+				05DE1CF2178C76AB00494AB1 /* Frameworks */,
+				05DE1CF3178C76AB00494AB1 /* Resources */,
+				0587F976178D5B86000B4A79 /* CopyFiles */,
+				050829451794A570003C2639 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0587F979178D5D3E000B4A79 /* PBXTargetDependency */,
+			);
+			name = ICNS2ICO;
+			productName = ICNS2ICO;
+			productReference = 05DE1CF5178C76AB00494AB1 /* ICNS2ICO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05DE1CED178C76AB00494AB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "XS-Labs";
+			};
+			buildConfigurationList = 05DE1CF0178C76AB00494AB1 /* Build configuration list for PBXProject "ICNS2ICO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05DE1CEC178C76AB00494AB1;
+			productRefGroup = 05DE1CF6178C76AB00494AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05DE1CF4178C76AB00494AB1 /* ICNS2ICO */,
+				0587F955178D5AF2000B4A79 /* ICOConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0587F954178D5AF2000B4A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0587F95D178D5AF2000B4A79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DE1CF3178C76AB00494AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DE1D03178C76AB00494AB1 /* InfoPlist.strings in Resources */,
+				05DE1D0F178C76AB00494AB1 /* MainMenu.xib in Resources */,
+				05DE1D68178CB57900494AB1 /* MainWindow.xib in Resources */,
+				05DE1D2D178C915200494AB1 /* Localizable.strings in Resources */,
+				05DE1D5B178CB01B00494AB1 /* ICNS2ICO.iconset in Resources */,
+				05DE1D65178CB57400494AB1 /* AboutWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		050829451794A570003C2639 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nplist=\"ICNS2ICO/ICNS2ICO-Info.plist\"\nrev=$(git rev-list master | wc -l)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $rev\" \"$plist\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0587F951178D5AF2000B4A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0587F961178D5AF2000B4A79 /* ICOConverter.m in Sources */,
+				0587F97D178D5E4F000B4A79 /* ICOConverter+Private.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DE1CF1178C76AB00494AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DE1D05178C76AB00494AB1 /* main.m in Sources */,
+				05DE1D0C178C76AB00494AB1 /* ApplicationDelegate.m in Sources */,
+				05DE1D17178C7D8700494AB1 /* MainWindowController.m in Sources */,
+				05DE1D22178C851200494AB1 /* BackgroundView.m in Sources */,
+				05DE1D25178C87BF00494AB1 /* MainWindowController+NSTableViewDataSource.m in Sources */,
+				05DE1D2B178C8E7300494AB1 /* TextFieldCell.m in Sources */,
+				05DE1D59178CA9CC00494AB1 /* MainWindowController+NSWindowDelegate.m in Sources */,
+				05DE1D5E178CB06300494AB1 /* AboutWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0587F979178D5D3E000B4A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0587F955178D5AF2000B4A79 /* ICOConverter */;
+			targetProxy = 0587F978178D5D3E000B4A79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0587F95B178D5AF2000B4A79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0587F95C178D5AF2000B4A79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05DE1D01178C76AB00494AB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DE1D02178C76AB00494AB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05DE1D0D178C76AB00494AB1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DE1D0E178C76AB00494AB1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		05DE1D67178CB57400494AB1 /* AboutWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DE1D66178CB57400494AB1 /* en */,
+			);
+			name = AboutWindow.xib;
+			sourceTree = "<group>";
+		};
+		05DE1D6A178CB57900494AB1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DE1D69178CB57900494AB1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0587F963178D5AF2000B4A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICOConverter/ICOConverter-Prefix.pch";
+				GCC_WARN_PEDANTIC = NO;
+				HEADER_SEARCH_PATHS = "/opt/local/include/ImageMagick-6";
+				INFOPLIST_FILE = "ICOConverter/ICOConverter-Info.plist";
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		0587F964178D5AF2000B4A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICOConverter/ICOConverter-Prefix.pch";
+				GCC_WARN_PEDANTIC = NO;
+				HEADER_SEARCH_PATHS = "/opt/local/include/ImageMagick-6";
+				INFOPLIST_FILE = "ICOConverter/ICOConverter-Info.plist";
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		05DE1D10178C76AB00494AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = YES;
+				CLANG_ANALYZER_GCD = YES;
+				CLANG_ANALYZER_MALLOC = YES;
+				CLANG_ANALYZER_OBJC_ATSYNC = YES;
+				CLANG_ANALYZER_OBJC_CFNUMBER = YES;
+				CLANG_ANALYZER_OBJC_COLLECTIONS = YES;
+				CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES = YES;
+				CLANG_ANALYZER_OBJC_NSCFERROR = YES;
+				CLANG_ANALYZER_OBJC_RETAIN_COUNT = YES;
+				CLANG_ANALYZER_OBJC_SELF_INIT = YES;
+				CLANG_ANALYZER_OBJC_UNUSED_IVARS = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK = YES;
+				CLANG_ANALYZER_SECURITY_KEYCHAIN_API = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		05DE1D11178C76AB00494AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = YES;
+				CLANG_ANALYZER_GCD = YES;
+				CLANG_ANALYZER_MALLOC = YES;
+				CLANG_ANALYZER_OBJC_ATSYNC = YES;
+				CLANG_ANALYZER_OBJC_CFNUMBER = YES;
+				CLANG_ANALYZER_OBJC_COLLECTIONS = YES;
+				CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES = YES;
+				CLANG_ANALYZER_OBJC_NSCFERROR = YES;
+				CLANG_ANALYZER_OBJC_RETAIN_COUNT = YES;
+				CLANG_ANALYZER_OBJC_SELF_INIT = YES;
+				CLANG_ANALYZER_OBJC_UNUSED_IVARS = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK = YES;
+				CLANG_ANALYZER_SECURITY_KEYCHAIN_API = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05DE1D13178C76AB00494AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICNS2ICO/ICNS2ICO-Prefix.pch";
+				INFOPLIST_FILE = "ICNS2ICO/ICNS2ICO-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05DE1D14178C76AB00494AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICNS2ICO/ICNS2ICO-Prefix.pch";
+				INFOPLIST_FILE = "ICNS2ICO/ICNS2ICO-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0587F962178D5AF2000B4A79 /* Build configuration list for PBXNativeTarget "ICOConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0587F963178D5AF2000B4A79 /* Debug */,
+				0587F964178D5AF2000B4A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DE1CF0178C76AB00494AB1 /* Build configuration list for PBXProject "ICNS2ICO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DE1D10178C76AB00494AB1 /* Debug */,
+				05DE1D11178C76AB00494AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DE1D12178C76AB00494AB1 /* Build configuration list for PBXNativeTarget "ICNS2ICO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DE1D13178C76AB00494AB1 /* Debug */,
+				05DE1D14178C76AB00494AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05DE1CED178C76AB00494AB1 /* Project object */;
+}
