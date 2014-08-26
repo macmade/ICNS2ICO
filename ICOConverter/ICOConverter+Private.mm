@@ -40,6 +40,9 @@
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wpedantic"
 #pragma clang diagnostic ignored "-Wsign-conversion"
+#pragma clang diagnostic ignored "-Wold-style-cast"
+#pragma clang diagnostic ignored "-Wignored-qualifiers"
+#pragma clang diagnostic ignored "-Wunused-parameter"
 
 #define MAGICKCORE_QUANTUM_DEPTH    32
 #define MAGICKCORE_HDRI_ENABLE      0
@@ -77,15 +80,15 @@
     {}
     
     icoData = [ [ NSFileManager defaultManager ] contentsAtPath: icoFile ];
-    bytes   = ( const char * )icoData.bytes;
+    bytes   = static_cast< const char * >( icoData.bytes );
     
     [ [ NSFileManager defaultManager ] removeItemAtPath: tiffFile error: NULL ];
     [ [ NSFileManager defaultManager ] removeItemAtPath: icoFile  error: NULL ];
     
     if( bytes != NULL && icoData.length > 22 )
     {
-        size   = *( ( uint32_t * )( ( void * )( bytes + 14 ) ) );
-        offset = *( ( uint32_t * )( ( void * )( bytes + 18 ) ) );
+        size   = *( reinterpret_cast< uint32_t * >( const_cast< char * >( bytes + 14 ) ) );
+        offset = *( reinterpret_cast< uint32_t * >( const_cast< char * >( bytes + 18 ) ) );
         
         return [ NSData dataWithBytes: bytes + offset length: size ];
     }

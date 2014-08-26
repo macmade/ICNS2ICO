@@ -16,16 +16,15 @@
 		0587F980178D630D000B4A79 /* ICOConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0587F95F178D5AF2000B4A79 /* ICOConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0587FF7C178D9684000B4A79 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F93C178D5963000B4A79 /* libc++.dylib */; };
 		0587FF7D178D9684000B4A79 /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F93D178D5963000B4A79 /* libc++abi.dylib */; };
-		0587FF7E178D9684000B4A79 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F93E178D5963000B4A79 /* libstdc++.dylib */; };
 		0587FF7F178D9684000B4A79 /* libSystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F93A178D595B000B4A79 /* libSystem.dylib */; };
 		0587FF80178D9684000B4A79 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F938178D5955000B4A79 /* libbz2.dylib */; };
 		0587FF81178D9684000B4A79 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F936178D5951000B4A79 /* libxml2.dylib */; };
 		0587FF82178D9684000B4A79 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F934178D594D000B4A79 /* libz.dylib */; };
 		0587FF83178D9684000B4A79 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F97E178D5FB4000B4A79 /* OpenCL.framework */; };
 		0587FF84178D9684000B4A79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DE1CF8178C76AB00494AB1 /* Cocoa.framework */; };
-		05C987AE1794A9FD0043C47B /* libMagick++-6.Q16.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C987A81794A9C10043C47B /* libMagick++-6.Q16.1.dylib */; };
-		05C987AF1794A9FF0043C47B /* libMagickCore-6.Q16.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C987A91794A9C10043C47B /* libMagickCore-6.Q16.1.dylib */; };
-		05C987B01794AA010043C47B /* libMagickWand-6.Q16.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C987AA1794A9C10043C47B /* libMagickWand-6.Q16.1.dylib */; };
+		05DD5C7B19A5F78F0002AA1F /* libMagick++-6.Q16.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DD5C7819A5F78F0002AA1F /* libMagick++-6.Q16.5.dylib */; };
+		05DD5C7C19A5F78F0002AA1F /* libMagickCore-6.Q16.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DD5C7919A5F78F0002AA1F /* libMagickCore-6.Q16.2.dylib */; };
+		05DD5C7D19A5F78F0002AA1F /* libMagickWand-6.Q16.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DD5C7A19A5F78F0002AA1F /* libMagickWand-6.Q16.2.dylib */; };
 		05DE1CF9178C76AB00494AB1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DE1CF8178C76AB00494AB1 /* Cocoa.framework */; };
 		05DE1D03178C76AB00494AB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05DE1D01178C76AB00494AB1 /* InfoPlist.strings */; };
 		05DE1D05178C76AB00494AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE1D04178C76AB00494AB1 /* main.m */; };
@@ -83,9 +82,9 @@
 		0587F97A178D5E4F000B4A79 /* ICOConverter+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ICOConverter+Private.h"; sourceTree = "<group>"; };
 		0587F97B178D5E4F000B4A79 /* ICOConverter+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "ICOConverter+Private.mm"; sourceTree = "<group>"; };
 		0587F97E178D5FB4000B4A79 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
-		05C987A81794A9C10043C47B /* libMagick++-6.Q16.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagick++-6.Q16.1.dylib"; path = "/opt/local/lib/libMagick++-6.Q16.1.dylib"; sourceTree = "<group>"; };
-		05C987A91794A9C10043C47B /* libMagickCore-6.Q16.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagickCore-6.Q16.1.dylib"; path = "/opt/local/lib/libMagickCore-6.Q16.1.dylib"; sourceTree = "<group>"; };
-		05C987AA1794A9C10043C47B /* libMagickWand-6.Q16.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagickWand-6.Q16.1.dylib"; path = "/opt/local/lib/libMagickWand-6.Q16.1.dylib"; sourceTree = "<group>"; };
+		05DD5C7819A5F78F0002AA1F /* libMagick++-6.Q16.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagick++-6.Q16.5.dylib"; path = "../../../../../../../opt/local/lib/libMagick++-6.Q16.5.dylib"; sourceTree = "<group>"; };
+		05DD5C7919A5F78F0002AA1F /* libMagickCore-6.Q16.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagickCore-6.Q16.2.dylib"; path = "../../../../../../../opt/local/lib/libMagickCore-6.Q16.2.dylib"; sourceTree = "<group>"; };
+		05DD5C7A19A5F78F0002AA1F /* libMagickWand-6.Q16.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagickWand-6.Q16.2.dylib"; path = "../../../../../../../opt/local/lib/libMagickWand-6.Q16.2.dylib"; sourceTree = "<group>"; };
 		05DE1CF5178C76AB00494AB1 /* ICNS2ICO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICNS2ICO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DE1CF8178C76AB00494AB1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		05DE1CFB178C76AB00494AB1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -122,16 +121,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05DD5C7B19A5F78F0002AA1F /* libMagick++-6.Q16.5.dylib in Frameworks */,
+				05DD5C7C19A5F78F0002AA1F /* libMagickCore-6.Q16.2.dylib in Frameworks */,
+				05DD5C7D19A5F78F0002AA1F /* libMagickWand-6.Q16.2.dylib in Frameworks */,
 				0587FF7C178D9684000B4A79 /* libc++.dylib in Frameworks */,
 				0587FF7D178D9684000B4A79 /* libc++abi.dylib in Frameworks */,
-				0587FF7E178D9684000B4A79 /* libstdc++.dylib in Frameworks */,
 				0587FF7F178D9684000B4A79 /* libSystem.dylib in Frameworks */,
 				0587FF80178D9684000B4A79 /* libbz2.dylib in Frameworks */,
 				0587FF81178D9684000B4A79 /* libxml2.dylib in Frameworks */,
 				0587FF82178D9684000B4A79 /* libz.dylib in Frameworks */,
-				05C987AE1794A9FD0043C47B /* libMagick++-6.Q16.1.dylib in Frameworks */,
-				05C987AF1794A9FF0043C47B /* libMagickCore-6.Q16.1.dylib in Frameworks */,
-				05C987B01794AA010043C47B /* libMagickWand-6.Q16.1.dylib in Frameworks */,
 				0587FF83178D9684000B4A79 /* OpenCL.framework in Frameworks */,
 				0587FF84178D9684000B4A79 /* Cocoa.framework in Frameworks */,
 			);
@@ -193,9 +191,9 @@
 		05DE1CF7178C76AB00494AB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				05C987A81794A9C10043C47B /* libMagick++-6.Q16.1.dylib */,
-				05C987A91794A9C10043C47B /* libMagickCore-6.Q16.1.dylib */,
-				05C987AA1794A9C10043C47B /* libMagickWand-6.Q16.1.dylib */,
+				05DD5C7819A5F78F0002AA1F /* libMagick++-6.Q16.5.dylib */,
+				05DD5C7919A5F78F0002AA1F /* libMagickCore-6.Q16.2.dylib */,
+				05DD5C7A19A5F78F0002AA1F /* libMagickWand-6.Q16.2.dylib */,
 				0587F93C178D5963000B4A79 /* libc++.dylib */,
 				0587F93D178D5963000B4A79 /* libc++abi.dylib */,
 				0587F93E178D5963000B4A79 /* libstdc++.dylib */,
@@ -470,6 +468,7 @@
 				GCC_WARN_PEDANTIC = NO;
 				HEADER_SEARCH_PATHS = "/opt/local/include/ImageMagick-6";
 				INFOPLIST_FILE = "ICOConverter/ICOConverter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks/";
 				LIBRARY_SEARCH_PATHS = /opt/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
@@ -488,6 +487,7 @@
 				GCC_WARN_PEDANTIC = NO;
 				HEADER_SEARCH_PATHS = "/opt/local/include/ImageMagick-6";
 				INFOPLIST_FILE = "ICOConverter/ICOConverter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks/";
 				LIBRARY_SEARCH_PATHS = /opt/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
@@ -518,7 +518,7 @@
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK = YES;
 				CLANG_ANALYZER_SECURITY_KEYCHAIN_API = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_CXX0X_EXTENSIONS = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
@@ -607,7 +607,7 @@
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK = YES;
 				CLANG_ANALYZER_SECURITY_KEYCHAIN_API = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_CXX0X_EXTENSIONS = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
