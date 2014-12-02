@@ -1,6 +1,12 @@
 ICNS2ICO
 ========
 
+[![Build Status](https://img.shields.io/travis/macmade/ICNS2ICO.svg?branch=master&style=flat)](https://travis-ci.org/macmade/ICNS2ICO)
+[![Issues](http://img.shields.io/github/issues/macmade/ICNS2ICO.svg?style=flat)](https://github.com/macmade/ICNS2ICO/issues)
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg?style=flat)
+![License](https://img.shields.io/badge/license-bsd-brightgreen.svg?style=flat)
+[![Contact](https://img.shields.io/badge/contact-@macmade-blue.svg?style=flat)](https://twitter.com/macmade)
+
 About
 -----
 
