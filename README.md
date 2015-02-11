@@ -33,10 +33,10 @@ ICNS2ICO uses the ImageMagick library to produce valid BMP files.
 While the Cocoa framework is able to output images in such a format, it unfortunately produces files that are incompatible with Windows.  
 That's where ImageMagick comes in handy.
 
-The simplest to install ImageMagick is to use [MacPorts](http://www.macports.org).  
+The simplest to install ImageMagick is to use [HomeBrew](http://brew.sh).  
 Once it's installed on your computer, simply type, from a terminal window:
 
-    sudo port install ImageMagick
+    brew install ImageMagick
     
 You'll then be able to build and run ICNS2ICO from Xcode.
 
