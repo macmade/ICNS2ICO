@@ -322,6 +322,7 @@
             }
             
             [ NSThread sleepForTimeInterval: 1 ];
+            [ converter release ];
             
             dispatch_sync
             (

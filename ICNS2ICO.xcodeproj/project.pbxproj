@@ -10,21 +10,16 @@
 		0587F95D178D5AF2000B4A79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0587F95B178D5AF2000B4A79 /* InfoPlist.strings */; };
 		0587F961178D5AF2000B4A79 /* ICOConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0587F960178D5AF2000B4A79 /* ICOConverter.m */; };
 		0587F975178D5B81000B4A79 /* ICOConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F956178D5AF2000B4A79 /* ICOConverter.framework */; };
-		0587F977178D5B8A000B4A79 /* ICOConverter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0587F956178D5AF2000B4A79 /* ICOConverter.framework */; };
+		0587F977178D5B8A000B4A79 /* ICOConverter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0587F956178D5AF2000B4A79 /* ICOConverter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		0587F97C178D5E4F000B4A79 /* ICOConverter+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0587F97A178D5E4F000B4A79 /* ICOConverter+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0587F97D178D5E4F000B4A79 /* ICOConverter+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0587F97B178D5E4F000B4A79 /* ICOConverter+Private.mm */; };
 		0587F980178D630D000B4A79 /* ICOConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0587F95F178D5AF2000B4A79 /* ICOConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0587FF7C178D9684000B4A79 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F93C178D5963000B4A79 /* libc++.dylib */; };
-		0587FF7D178D9684000B4A79 /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F93D178D5963000B4A79 /* libc++abi.dylib */; };
 		0587FF7F178D9684000B4A79 /* libSystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F93A178D595B000B4A79 /* libSystem.dylib */; };
 		0587FF80178D9684000B4A79 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F938178D5955000B4A79 /* libbz2.dylib */; };
 		0587FF81178D9684000B4A79 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F936178D5951000B4A79 /* libxml2.dylib */; };
 		0587FF82178D9684000B4A79 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F934178D594D000B4A79 /* libz.dylib */; };
 		0587FF83178D9684000B4A79 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0587F97E178D5FB4000B4A79 /* OpenCL.framework */; };
 		0587FF84178D9684000B4A79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DE1CF8178C76AB00494AB1 /* Cocoa.framework */; };
-		05DD5C7B19A5F78F0002AA1F /* libMagick++-6.Q16.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DD5C7819A5F78F0002AA1F /* libMagick++-6.Q16.5.dylib */; };
-		05DD5C7C19A5F78F0002AA1F /* libMagickCore-6.Q16.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DD5C7919A5F78F0002AA1F /* libMagickCore-6.Q16.2.dylib */; };
-		05DD5C7D19A5F78F0002AA1F /* libMagickWand-6.Q16.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DD5C7A19A5F78F0002AA1F /* libMagickWand-6.Q16.2.dylib */; };
 		05DE1CF9178C76AB00494AB1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DE1CF8178C76AB00494AB1 /* Cocoa.framework */; };
 		05DE1D03178C76AB00494AB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05DE1D01178C76AB00494AB1 /* InfoPlist.strings */; };
 		05DE1D05178C76AB00494AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE1D04178C76AB00494AB1 /* main.m */; };
@@ -70,9 +65,6 @@
 		0587F936178D5951000B4A79 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		0587F938178D5955000B4A79 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
 		0587F93A178D595B000B4A79 /* libSystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.dylib; path = usr/lib/libSystem.dylib; sourceTree = SDKROOT; };
-		0587F93C178D5963000B4A79 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
-		0587F93D178D5963000B4A79 /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
-		0587F93E178D5963000B4A79 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		0587F956178D5AF2000B4A79 /* ICOConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ICOConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0587F95A178D5AF2000B4A79 /* ICOConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ICOConverter-Info.plist"; sourceTree = "<group>"; };
 		0587F95C178D5AF2000B4A79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -82,9 +74,6 @@
 		0587F97A178D5E4F000B4A79 /* ICOConverter+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ICOConverter+Private.h"; sourceTree = "<group>"; };
 		0587F97B178D5E4F000B4A79 /* ICOConverter+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "ICOConverter+Private.mm"; sourceTree = "<group>"; };
 		0587F97E178D5FB4000B4A79 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
-		05DD5C7819A5F78F0002AA1F /* libMagick++-6.Q16.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagick++-6.Q16.5.dylib"; path = "../../../../../../../opt/local/lib/libMagick++-6.Q16.5.dylib"; sourceTree = "<group>"; };
-		05DD5C7919A5F78F0002AA1F /* libMagickCore-6.Q16.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagickCore-6.Q16.2.dylib"; path = "../../../../../../../opt/local/lib/libMagickCore-6.Q16.2.dylib"; sourceTree = "<group>"; };
-		05DD5C7A19A5F78F0002AA1F /* libMagickWand-6.Q16.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagickWand-6.Q16.2.dylib"; path = "../../../../../../../opt/local/lib/libMagickWand-6.Q16.2.dylib"; sourceTree = "<group>"; };
 		05DE1CF5178C76AB00494AB1 /* ICNS2ICO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICNS2ICO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DE1CF8178C76AB00494AB1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		05DE1CFB178C76AB00494AB1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -121,11 +110,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05DD5C7B19A5F78F0002AA1F /* libMagick++-6.Q16.5.dylib in Frameworks */,
-				05DD5C7C19A5F78F0002AA1F /* libMagickCore-6.Q16.2.dylib in Frameworks */,
-				05DD5C7D19A5F78F0002AA1F /* libMagickWand-6.Q16.2.dylib in Frameworks */,
-				0587FF7C178D9684000B4A79 /* libc++.dylib in Frameworks */,
-				0587FF7D178D9684000B4A79 /* libc++abi.dylib in Frameworks */,
 				0587FF7F178D9684000B4A79 /* libSystem.dylib in Frameworks */,
 				0587FF80178D9684000B4A79 /* libbz2.dylib in Frameworks */,
 				0587FF81178D9684000B4A79 /* libxml2.dylib in Frameworks */,
@@ -191,12 +175,6 @@
 		05DE1CF7178C76AB00494AB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				05DD5C7819A5F78F0002AA1F /* libMagick++-6.Q16.5.dylib */,
-				05DD5C7919A5F78F0002AA1F /* libMagickCore-6.Q16.2.dylib */,
-				05DD5C7A19A5F78F0002AA1F /* libMagickWand-6.Q16.2.dylib */,
-				0587F93C178D5963000B4A79 /* libc++.dylib */,
-				0587F93D178D5963000B4A79 /* libc++abi.dylib */,
-				0587F93E178D5963000B4A79 /* libstdc++.dylib */,
 				0587F93A178D595B000B4A79 /* libSystem.dylib */,
 				0587F938178D5955000B4A79 /* libbz2.dylib */,
 				0587F936178D5951000B4A79 /* libxml2.dylib */,
@@ -316,7 +294,7 @@
 		05DE1CED178C76AB00494AB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "XS-Labs";
 			};
 			buildConfigurationList = 05DE1CF0178C76AB00494AB1 /* Build configuration list for PBXProject "ICNS2ICO" */;
@@ -466,10 +444,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICOConverter/ICOConverter-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
-				HEADER_SEARCH_PATHS = "/opt/local/include/ImageMagick-6";
+				HEADER_SEARCH_PATHS = "/usr/local/include/ImageMagick-6";
 				INFOPLIST_FILE = "ICOConverter/ICOConverter-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks/";
-				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lMagick++-6.Q16",
+					"-lMagickCore-6.Q16",
+					"-lMagickWand-6.Q16",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -485,10 +468,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICOConverter/ICOConverter-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
-				HEADER_SEARCH_PATHS = "/opt/local/include/ImageMagick-6";
+				HEADER_SEARCH_PATHS = "/usr/local/include/ImageMagick-6";
 				INFOPLIST_FILE = "ICOConverter/ICOConverter-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks/";
-				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lMagick++-6.Q16",
+					"-lMagickCore-6.Q16",
+					"-lMagickWand-6.Q16",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -501,6 +489,7 @@
 				CLANG_ANALYZER_DEADCODE_DEADSTORES = YES;
 				CLANG_ANALYZER_GCD = YES;
 				CLANG_ANALYZER_MALLOC = YES;
+				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
 				CLANG_ANALYZER_OBJC_ATSYNC = YES;
 				CLANG_ANALYZER_OBJC_CFNUMBER = YES;
 				CLANG_ANALYZER_OBJC_COLLECTIONS = YES;
@@ -519,9 +508,15 @@
 				CLANG_ANALYZER_SECURITY_KEYCHAIN_API = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = deep;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_CXX0X_EXTENSIONS = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
@@ -529,11 +524,14 @@
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -577,8 +575,14 @@
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
+				IBC_ERRORS = YES;
+				IBC_FLATTEN_NIBS = YES;
+				IBC_NOTICES = YES;
+				IBC_WARNINGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -590,6 +594,7 @@
 				CLANG_ANALYZER_DEADCODE_DEADSTORES = YES;
 				CLANG_ANALYZER_GCD = YES;
 				CLANG_ANALYZER_MALLOC = YES;
+				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
 				CLANG_ANALYZER_OBJC_ATSYNC = YES;
 				CLANG_ANALYZER_OBJC_CFNUMBER = YES;
 				CLANG_ANALYZER_OBJC_COLLECTIONS = YES;
@@ -608,9 +613,15 @@
 				CLANG_ANALYZER_SECURITY_KEYCHAIN_API = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = deep;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_CXX0X_EXTENSIONS = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
@@ -618,12 +629,15 @@
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
@@ -661,7 +675,13 @@
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
+				IBC_ERRORS = YES;
+				IBC_FLATTEN_NIBS = YES;
+				IBC_NOTICES = YES;
+				IBC_WARNINGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -673,10 +693,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICNS2ICO/ICNS2ICO-Prefix.pch";
 				INFOPLIST_FILE = "ICNS2ICO/ICNS2ICO-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/opt/local/lib,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -689,10 +705,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICNS2ICO/ICNS2ICO-Prefix.pch";
 				INFOPLIST_FILE = "ICNS2ICO/ICNS2ICO-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/opt/local/lib,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
