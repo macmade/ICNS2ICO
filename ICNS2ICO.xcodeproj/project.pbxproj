@@ -294,7 +294,7 @@
 		05DE1CED178C76AB00494AB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "XS-Labs";
 			};
 			buildConfigurationList = 05DE1CF0178C76AB00494AB1 /* Build configuration list for PBXProject "ICNS2ICO" */;
@@ -453,6 +453,7 @@
 					"-lMagickCore-6.Q16",
 					"-lMagickWand-6.Q16",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xs-labs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -477,6 +478,7 @@
 					"-lMagickCore-6.Q16",
 					"-lMagickWand-6.Q16",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xs-labs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -532,6 +534,7 @@
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -695,6 +698,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICNS2ICO/ICNS2ICO-Prefix.pch";
 				INFOPLIST_FILE = "ICNS2ICO/ICNS2ICO-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.digidna.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -707,6 +711,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICNS2ICO/ICNS2ICO-Prefix.pch";
 				INFOPLIST_FILE = "ICNS2ICO/ICNS2ICO-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.digidna.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

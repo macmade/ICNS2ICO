@@ -154,11 +154,11 @@
     {
         if( _icoFormat == ICOConverterFormatPNG )
         {
-            bitmapData = [ bitmapRep representationUsingType: NSPNGFileType properties: nil ];
+            bitmapData = [ bitmapRep representationUsingType: NSPNGFileType properties: @{} ];
         }
         else
         {
-            bitmapData = [ self convertTIFFDataToBMPData: [ bitmapRep representationUsingType: NSTIFFFileType properties: nil ] ];
+            bitmapData = [ self convertTIFFDataToBMPData: [ bitmapRep representationUsingType: NSTIFFFileType properties: @{} ] ];
         }
         
         if( bitmapData != nil )
