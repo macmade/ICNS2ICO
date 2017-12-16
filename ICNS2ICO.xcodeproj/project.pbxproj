@@ -449,9 +449,9 @@
 				INSTALL_PATH = "@executable_path/../Frameworks/";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				OTHER_LDFLAGS = (
-					"-lMagick++-6.Q16",
-					"-lMagickCore-6.Q16",
-					"-lMagickWand-6.Q16",
+					"-lMagick++-7.Q16HDRI",
+					"-lMagickCore-7.Q16HDRI",
+					"-lMagickWand-7.Q16HDRI",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xs-labs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -474,9 +474,9 @@
 				INSTALL_PATH = "@executable_path/../Frameworks/";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				OTHER_LDFLAGS = (
-					"-lMagick++-6.Q16",
-					"-lMagickCore-6.Q16",
-					"-lMagickWand-6.Q16",
+					"-lMagick++-7.Q16HDRI",
+					"-lMagickCore-7.Q16HDRI",
+					"-lMagickWand-7.Q16HDRI",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xs-labs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
