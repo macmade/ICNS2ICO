@@ -168,7 +168,6 @@
 #pragma clang diagnostic fatal "-Wstrict-selector-match"
 #pragma clang diagnostic fatal "-Wsuper-class-method-mismatch"
 #pragma clang diagnostic fatal "-Wswitch-default"
-#pragma clang diagnostic fatal "-Wswitch-enum"
 #pragma clang diagnostic fatal "-Wswitch"
 #pragma clang diagnostic fatal "-Wsynth"
 #pragma clang diagnostic fatal "-Wtautological-compare"
@@ -200,6 +199,7 @@
 #pragma clang diagnostic ignored "-Wpadded"
 #pragma clang diagnostic ignored "-Wselector"
 #pragma clang diagnostic ignored "-Wvariadic-macros"
+#pragma clang diagnostic ignored "-Wswitch-enum"
 
 /*
  * Not recognized by Apple implementation:
@@ -237,6 +237,7 @@
  * #pragma clang diagnostic fatal "-Wunused-comparison"
  * #pragma clang diagnostic fatal "-Wunused-result"
  * #pragma clang diagnostic fatal "-Wuser-defined-literals"
+ * #pragma clang diagnostic fatal "-Warc-abi"
  */
 
 #endif
