@@ -295,7 +295,11 @@
     _progressText.alphaValue    = ( CGFloat )1;
     _mask.alphaValue            = ( CGFloat )0.9;
     
-    [ _progressBar startAnimation: nil ];
+    [ _progressBar startAnimation:   nil ];
+    [ _progressBar setIndeterminate: NO ];
+    [ _progressBar setMinValue:      0 ];
+    [ _progressBar setMaxValue:      _icons.count ];
+    [ _progressBar setDoubleValue:   0 ];
     
     _processing = YES;
     
@@ -310,15 +314,18 @@
             converter           = [ [ ICOConverter alloc ] initWithDestinationDirectory: _destinationPath ];
             converter.icoFormat = ( _icoFormat == ICOConverterFormatPNG ) ? ICOConverterFormatPNG : ICOConverterFormatBMP;
             
-            [ _progressBar setIndeterminate:    NO ];
-            [ _progressBar setMinValue:         0 ];
-            [ _progressBar setMaxValue:         _icons.count ];
-            [ _progressBar setDoubleValue:      0 ];
-            
             for( icon in _icons )
             {
                 [ converter convertImageAtPath: icon ];
-                [ _progressBar setDoubleValue:  [ _progressBar doubleValue ] + 1 ];
+                
+                dispatch_async
+                (
+                    dispatch_get_main_queue(),
+                    ^( void )
+                    {
+                        [ _progressBar setDoubleValue:  [ _progressBar doubleValue ] + 1 ];
+                    }
+                );
             }
             
             [ NSThread sleepForTimeInterval: 1 ];
