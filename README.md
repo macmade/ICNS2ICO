@@ -1,14 +1,12 @@
 ICNS2ICO
 ========
 
-[![Build Status](https://img.shields.io/travis/macmade/ICNS2ICO.svg?branch=master&style=flat)](https://travis-ci.org/macmade/ICNS2ICO)
-[![Issues](http://img.shields.io/github/issues/macmade/ICNS2ICO.svg?style=flat)](https://github.com/macmade/ICNS2ICO/issues)
-![Status](https://img.shields.io/badge/status-active-brightgreen.svg?style=flat)
-![License](https://img.shields.io/badge/license-bsd-brightgreen.svg?style=flat)
-[![Contact](https://img.shields.io/badge/contact-@macmade-blue.svg?style=flat)](https://twitter.com/macmade)  
-[![Donate-Patreon](https://img.shields.io/badge/donate-patreon-yellow.svg?style=flat)](https://patreon.com/macmade)
-[![Donate-Gratipay](https://img.shields.io/badge/donate-gratipay-yellow.svg?style=flat)](https://www.gratipay.com/macmade)
-[![Donate-Paypal](https://img.shields.io/badge/donate-paypal-yellow.svg?style=flat)](https://paypal.me/xslabs)
+[![Build Status](https://img.shields.io/github/workflow/status/macmade/ICNS2ICO/ci-mac?label=macOS&logo=apple)](https://github.com/macmade/ICNS2ICO/actions/workflows/ci-mac.yaml)
+[![Issues](http://img.shields.io/github/issues/macmade/ICNS2ICO.svg?logo=github)](https://github.com/macmade/ICNS2ICO/issues)
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg?logo=git)
+![License](https://img.shields.io/badge/license-mit-brightgreen.svg?logo=open-source-initiative)  
+[![Contact](https://img.shields.io/badge/follow-@macmade-blue.svg?logo=twitter&style=social)](https://twitter.com/macmade)
+[![Sponsor](https://img.shields.io/badge/sponsor-macmade-pink.svg?logo=github-sponsors&style=social)](https://github.com/sponsors/macmade)
 
 About
 -----
@@ -39,14 +37,14 @@ That's where ImageMagick comes in handy.
 The simplest to install ImageMagick is to use [HomeBrew](http://brew.sh).  
 Once it's installed on your computer, simply type, from a terminal window:
 
-    brew install ImageMagick
+    brew install imagemagick@6
     
 You'll then be able to build and run ICNS2ICO from Xcode.
 
 License
 -------
 
-ICNS2ICO is released under the terms of the BSD license.
+ICNS2ICO is released under the terms of the MIT License.
 
 Repository Infos
 ----------------

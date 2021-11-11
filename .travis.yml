@@ -1,5 +1,0 @@
-language: objective-c
-xcode_project: ICNS2ICO.xcodeproj
-xcode_scheme: ICNS2ICO
-install:
-  - brew install ImageMagick
