@@ -294,16 +294,17 @@
 		05DE1CED178C76AB00494AB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = "XS-Labs";
 			};
 			buildConfigurationList = 05DE1CF0178C76AB00494AB1 /* Build configuration list for PBXProject "ICNS2ICO" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				English,
 				en,
+				Base,
 			);
 			mainGroup = 05DE1CEC178C76AB00494AB1;
 			productRefGroup = 05DE1CF6178C76AB00494AB1 /* Products */;
@@ -585,7 +586,7 @@
 				IBC_FLATTEN_NIBS = YES;
 				IBC_NOTICES = YES;
 				IBC_WARNINGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
@@ -686,7 +687,7 @@
 				IBC_FLATTEN_NIBS = YES;
 				IBC_NOTICES = YES;
 				IBC_WARNINGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 			};
