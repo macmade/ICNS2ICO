@@ -446,10 +446,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICOConverter/ICOConverter-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
-				HEADER_SEARCH_PATHS = "/usr/local/include/ImageMagick-7";
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/ImageMagick-7",
+					"/opt/homebrew/include/ImageMagick-7",
+				);
 				INFOPLIST_FILE = "ICOConverter/ICOConverter-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks/";
-				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/imagemagick/**";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/imagemagick/**",
+					"/opt/homebrew/Cellar/imagemagick/**",
+				);
 				OTHER_LDFLAGS = (
 					"-lMagick++-7.Q16HDRI",
 					"-lMagickCore-7.Q16HDRI",
@@ -471,10 +477,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICOConverter/ICOConverter-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
-				HEADER_SEARCH_PATHS = "/usr/local/include/ImageMagick-7";
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/ImageMagick-7",
+					"/opt/homebrew/include/ImageMagick-7",
+				);
 				INFOPLIST_FILE = "ICOConverter/ICOConverter-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks/";
-				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/imagemagick/**";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/imagemagick/**",
+					"/opt/homebrew/Cellar/imagemagick/**",
+				);
 				OTHER_LDFLAGS = (
 					"-lMagick++-7.Q16HDRI",
 					"-lMagickCore-7.Q16HDRI",

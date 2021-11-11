@@ -37,7 +37,7 @@ That's where ImageMagick comes in handy.
 The simplest to install ImageMagick is to use [HomeBrew](http://brew.sh).  
 Once it's installed on your computer, simply type, from a terminal window:
 
-    brew install imagemagick@6
+    brew install imagemagick
     
 You'll then be able to build and run ICNS2ICO from Xcode.
 
