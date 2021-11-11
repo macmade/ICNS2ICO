@@ -9,7 +9,7 @@ jobs:
                     - { scheme: 'ICNS2ICO', configuration: 'Debug', project: 'ICNS2ICO.xcodeproj', build: 1, analyze: 1, test: 0, info: 1, destination: 'platform=macOS' }
         steps:
             
-            - run: brew install imagemagick@6
+            - run: brew install imagemagick
             
             - uses: actions/checkout@v1
               with:
