@@ -1,7 +1,7 @@
 ICNS2ICO
 ========
 
-[![Build Status](https://img.shields.io/github/workflow/status/macmade/ICNS2ICO/ci-mac?label=macOS&logo=apple)](https://github.com/macmade/ICNS2ICO/actions/workflows/ci-mac.yaml)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/macmade/ICNS2ICO/ci-mac.yaml?label=macOS&logo=apple)](https://github.com/macmade/ICNS2ICO/actions/workflows/ci-mac.yaml)
 [![Issues](http://img.shields.io/github/issues/macmade/ICNS2ICO.svg?logo=github)](https://github.com/macmade/ICNS2ICO/issues)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg?logo=git)
 ![License](https://img.shields.io/badge/license-mit-brightgreen.svg?logo=open-source-initiative)  
