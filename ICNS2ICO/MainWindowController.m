@@ -307,7 +307,7 @@
             ICOConverter * converter;
             
             converter           = [ [ ICOConverter alloc ] initWithDestinationDirectory: _destinationPath ];
-            converter.icoFormat = ( _icoFormat == ICOConverterFormatPNG ) ? ICOConverterFormatPNG : ICOConverterFormatBMP;
+            converter.icoFormat = ( ( int )_icoFormat == ( int )ICOConverterFormatPNG ) ? ICOConverterFormatPNG : ICOConverterFormatBMP;
             
             for( icon in _icons )
             {
