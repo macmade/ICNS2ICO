@@ -81,9 +81,10 @@
     [ _iconView removeFromSuperview ];
     [ self.window.contentView addSubview: _iconView positioned: NSWindowBelow relativeTo: nil ];
     
-    _progressBar.alphaValue     = ( CGFloat )0;
-    _progressText.alphaValue    = ( CGFloat )0;
-    _mask.alphaValue            = ( CGFloat )0;
+    _progressBar.hidden         = true;
+    _progressText.hidden        = true;
+    _mask.hidden                = true;
+    _mask.alphaValue            = ( CGFloat )0.9;
     _mask.backgroundColor       = [ NSColor whiteColor ];
     _tableView.dataSource       = self;
     _icoFormat                  = ICOFormatBMP;
@@ -286,9 +287,9 @@
         return;
     }
     
-    _progressBar.alphaValue     = ( CGFloat )1;
-    _progressText.alphaValue    = ( CGFloat )1;
-    _mask.alphaValue            = ( CGFloat )0.9;
+    _progressBar.hidden  = false;
+    _progressText.hidden = false;
+    _mask.hidden         = false;
     
     [ _progressBar startAnimation:   nil ];
     [ _progressBar setIndeterminate: NO ];
@@ -333,9 +334,9 @@
                 {
                     NSAlert * successAlert;
                     
-                    _progressBar.alphaValue     = ( CGFloat )0;
-                    _progressText.alphaValue    = ( CGFloat )0;
-                    _mask.alphaValue            = ( CGFloat )0;
+                    _progressBar.hidden  = true;
+                    _progressText.hidden = true;
+                    _mask.hidden         = true;
                     
                     [ _progressBar setIndeterminate: YES ];
                     [ _progressBar stopAnimation: nil ];
